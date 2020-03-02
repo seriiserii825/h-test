@@ -2,6 +2,14 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
+# JS Plugins
+[[params.plugins.js]]
+link = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/jquery-easy-scroll/jquery.easeScroll.js"
+
 
 [menu]
   # Sets the menu items in the navigation bar
