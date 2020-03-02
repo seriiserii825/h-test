@@ -84,6 +84,13 @@
             <img src="{{ .Params.ourBeersSectionImage | absURL }}" alt="">
         </div>
     </section>
+
+    <ul>
+        {{ range .Site.Taxonomies.categories }}
+        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+        {{ end }}
+    </ul>
+
     <div class="categories-block">
         <div class="categories-block__item" style="background-image: url('assets/i/categories-block/1.jpg')">
             <div class="categories-block__footer">

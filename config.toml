@@ -18,7 +18,7 @@ link = "plugins/slick/slick/slick.min.js"
 link = "plugins/jquery-easy-scroll/jquery.easeScroll.js"
 
 [taxonomies]
-  beer = "beers"
+  category = "categories"
 
 [menu]
   # Sets the menu items in the navigation bar
