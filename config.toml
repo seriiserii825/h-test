@@ -5,6 +5,10 @@ title = "My New Hugo Site"
 [params]
 logo = "i/logo.svg"
 
+# Css Plugins
+[[params.plugins.css]]
+link = "plugins/fontawesome/css/all.min.css"
+
 # JS Plugins
 [[params.plugins.js]]
 link = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"

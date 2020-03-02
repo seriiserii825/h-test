@@ -3,7 +3,12 @@
 <head>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta charset="utf-8">
-    <!--<link rel="stylesheet" type="text/css" href="assets/libs/fontawesome/css/all.min.css">-->
+
+    {{ "<!-- Css Plugins --> " | safeHTML }}
+    {{ range .Site.Params.plugins.css}}
+    <link rel="stylesheet" type="text/css" href="{{ .link | absURL }}"></link>
+    {{ end }}
+
     {{ $style := resources.Get "css/my.scss" }}
     {{ $style = $style | toCSS | minify | fingerprint }}
     <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}">
@@ -51,7 +56,7 @@
     </div>
 </header>
 <div class="main-slider">
-    <div class="main-slider__item" style="background-image: url('{{ .Params.IntroImg }}')">
+    <div class="main-slider__item" style="background-image: url('{{ .Params.IntroImg | absURL }}')">
         <div class="main-slider__content-wrap">
             <div class="main-slider__content">
                 <h3 class="main-slider__title">{{ .Params.IntroTitle }}</h3>
@@ -64,18 +69,19 @@
         </div>
     </div>
 </div>
+
 <div class="container">
     <section class="intro">
-        <div class="intro__text" style="background-image: url('i/intro-bg.jpg')">
-            <h2 class="title">Le migliori birre artigianali per la tua attività.</h2>
-            <p>Da oltre 40 anni selezioniamo direttamente le migliori birre artigianali italiane ed estere (Germania, Austria, Inghilterra e Belgio). I nostri beer sommelier non solo individuano i migliori birrifici italiani e stranieri, ma sono anche in grado di consigliarti e guidarti nella scelta delle migliori birre per il tuo pubblico. Siamo inoltre in grado di garantire l’esclusività territoriale delle birre speciali più pregiate.</p>
+        <div class="intro__text" style="background-image: url('{{ .Params.ourBeersSectionImageBg | absURL }}')">
+            <h2 class="title">{{ .Params.ourBeersSectionTitle }}</h2>
+            <p>{{ .Params.ourBeersSectionText }}</p>
             <a class="link" href="#">
-                <span> Vedi tutte le nostre birre</span>
+                <span>{{ .Params.ourBeersSectionBtnText }}</span>
                 <i class="fas fa-chevron-circle-right"></i>
             </a>
         </div>
         <div class="intro__img">
-            <img src="assets/i/intro.jpg" alt="">
+            <img src="{{ .Params.ourBeersSectionImage | absURL }}" alt="">
         </div>
     </section>
     <div class="categories-block">
