@@ -5,7 +5,7 @@ image: i/Villacher.jpg
 subtitle: "Il birrifiocio storico della Carinzia"
 link: "https://www.villacher.com/it/?v=fa868488740a"
 linkText: www.villacher.com
-files: [["VILLACHER Selection Red", "Scheda-Villacher-Selection-Red.pdf"], ["VILLACHER Pur", "Scheda-Villacher-Pur.pdf"]]
+files: [["VILLACHER Selection Red", "files/Scheda-Villacher-Selection-Red.pdf"], ["VILLACHER Pur", "files/Scheda-Villacher-Pur.pdf"]]
 draft: true
 ---
 

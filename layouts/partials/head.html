@@ -18,7 +18,7 @@
 
     {{ "<!-- Main Stylesheet --> " | safeHTML }}
     {{ $style := resources.Get "css/my.scss" }}
-    {{ $style = $style | toCSS | minify | fingerprint }}
+    {{ $style = $style | toCSS }}
     <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}">
 
     {{ "<!--Favicon--> " | safeHTML }}

@@ -18,16 +18,22 @@
             </div>
             <div class="single-product__data">
                 <ul class="single-product__list">
+
                     {{ range $elem_index, $elem_val := .Params.files }}
-                        {{ range $sub_elem_index, $sub_elem_val := $elem_val}}
-                            <li>
-                                <a class="link link--reverse" href="#">
-                                    <span>{{ $sub_elem_val }}</span>
-                                    <i class="fas fa-chevron-circle-right"></i>
-                                </a>
-                            </li>
-                        {{ end }}
+
+                    {{ $linkText := index ($elem_val) 0 }}
+                    {{ $link := index ($elem_val) 1 }}
+
+                    <li>
+                        <a target="_blank" class="link link--reverse" href="{{ $link | absURL }}">
+                            <span>{{ $linkText }}</span>
+                            <i class="fas fa-chevron-circle-right"></i>
+                        </a>
+                    </li>
+
+
                     {{ end }}
+
                 </ul>
             </div>
         </div>
