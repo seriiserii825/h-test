@@ -88,16 +88,17 @@
     <div class="categories-block">
         {{ $drinkscategories := .Site.Taxonomies.drinkscategories }}
         {{ range $drinkscategories }}
-        <div class="categories-block__item" style="background-image: url('{{ .Page.Params.imageForBlocks | absURL }}')">
-            <div class="categories-block__footer">
-                <h4 class="title">{{ .Page.Title }}</h4>
-                <a class="link" href="#">
-                    <span> Vai al catalogo</span>
-                    <i class="fas fa-chevron-circle-right"></i>
-                </a>
+            <div class="categories-block__item" style="background-image: url('{{ .Page.Params.imageForBlocks | absURL }}')">
+                <div class="categories-block__footer">
+                    <h4 class="title">{{ .Page.Title }}</h4>
+                    <a class="link" href="#">
+                        <span> Vai al catalogo</span>
+                        <i class="fas fa-chevron-circle-right"></i>
+                    </a>
+                </div>
             </div>
-        </div>
         {{ end }}
+
     </div>
 
     <h3 class="title title--color services-block__title">I nostri servizi</h3>
