@@ -28,33 +28,34 @@ link = "plugins/jquery-easy-scroll/jquery.easeScroll.js"
     name              = "Home"
     identifier        = "home"
     url               = "/"
-    pre               = "<i class='fa fa-home'></i>"
     weight            = 1
 
   [[menu.main]]
-    name              = "About"
-    identifier        = "about"
-    url               = "/about/"
-    pre               = "<i class='far fa-id-card'></i>"
+    name              = "Le nostre birre"
+    identifier        = "le-nostre-birre"
+    url               = "/le-nostre-birre/"
     weight            = 2
 
   [[menu.main]]
-    name              = "Blog"
-    identifier        = "blog"
-    url               = "/blog/"
-    pre               = "<i class='far fa-newspaper'></i>"
+    name              = "Altre bevande"
+    identifier        = "alte-bevande"
+    url               = "/alte-bevande/"
     weight            = 3
 
   [[menu.main]]
-    name              = "Categories"
-    identifier        = "categories"
-    url               = "/categories/"
-    pre               = "<i class='fas fa-sitemap'></i>"
+    name              = "Servizi"
+    identifier        = "services"
+    url               = "/servizi/"
     weight            = 5
 
   [[menu.main]]
-    name              = "Contact"
-    identifier        = "contact"
-    url               = "/contact/"
-    pre               = "<i class='far fa-envelope'></i>"
+    name              = "Chi siamo"
+    identifier        = "about"
+    url               = "/chi-siamo/"
     weight            = 6
+
+  [[menu.main]]
+    name              = "Contatti"
+    identifier        = "contacts"
+    url               = "/contatti/"
+    weight            = 7
