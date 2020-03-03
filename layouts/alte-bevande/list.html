@@ -20,8 +20,11 @@
             </li>
         </ul>
         <div class="alte-bevande__content">
+
             {{ range .Pages }}
-            <div class="alte-bevande__item mix bibite acque">
+            {{ range .Params.drinkscategories }}
+            <div class="alte-bevande__item mix {{ . }}">
+                {{ end }}
                 <div class="alte-bevande__img">
                     <img src="{{ .Params.image | absURL }}" alt="">
                 </div>
