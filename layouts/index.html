@@ -85,46 +85,21 @@
         </div>
     </section>
 
-    <ul>
-        {{ range .Site.Taxonomies.categories }}
-        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
-        {{ end }}
-    </ul>
-
     <div class="categories-block">
-        <div class="categories-block__item" style="background-image: url('assets/i/categories-block/1.jpg')">
+        {{ $drinkscategories := .Site.Taxonomies.drinkscategories }}
+        {{ range $drinkscategories }}
+        <div class="categories-block__item" style="background-image: url('{{ .Page.Params.imageForBlocks | absURL }}')">
             <div class="categories-block__footer">
-                <h4 class="title">Bibite</h4><a class="link" href="#">
-                <span> Vai al catalogo</span>
-                <i class="fas fa-chevron-circle-right"></i>
-            </a>
+                <h4 class="title">{{ .Page.Title }}</h4>
+                <a class="link" href="#">
+                    <span> Vai al catalogo</span>
+                    <i class="fas fa-chevron-circle-right"></i>
+                </a>
             </div>
         </div>
-        <div class="categories-block__item" style="background-image: url('assets/i/categories-block/2.jpg')">
-            <div class="categories-block__footer">
-                <h4 class="title">Acque</h4><a class="link" href="#">
-                <span> Vai al catalogo</span>
-                <i class="fas fa-chevron-circle-right"></i>
-            </a>
-            </div>
-        </div>
-        <div class="categories-block__item" style="background-image: url('assets/i/categories-block/3.jpg')">
-            <div class="categories-block__footer">
-                <h4 class="title">Vini</h4><a class="link" href="#">
-                <span> Vai al catalogo</span>
-                <i class="fas fa-chevron-circle-right"></i>
-            </a>
-            </div>
-        </div>
-        <div class="categories-block__item" style="background-image: url('assets/i/categories-block/4.jpg')">
-            <div class="categories-block__footer">
-                <h4 class="title">Grappe, distillati e liquori</h4><a class="link" href="#">
-                <span> Vai al catalogo</span>
-                <i class="fas fa-chevron-circle-right"></i>
-            </a>
-            </div>
-        </div>
+        {{ end }}
     </div>
+
     <h3 class="title title--color services-block__title">I nostri servizi</h3>
     <section class="services-block">
         <div class="services-block__wrap">

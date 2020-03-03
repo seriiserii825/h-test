@@ -19,6 +19,7 @@ link = "plugins/jquery-easy-scroll/jquery.easeScroll.js"
 
 [taxonomies]
   category = "categories"
+  drinkscategory = "drinkscategories"
 
 [menu]
   # Sets the menu items in the navigation bar
