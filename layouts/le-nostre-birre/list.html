@@ -1,85 +1,17 @@
 {{ define "main" }}
 <div class="container">
     <div class="products">
+        {{ range .Pages }}
         <div class="product__item">
-            <div class="product__img"><img src="assets/i/products/paulaner.png" alt=""></div>
-            <h3 class="title">Paulaner</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
+            <div class="product__img">
+                <img src="{{ .Params.image | absURL }}" alt="">
+            </div>
+            <h3 class="title">{{ .Title }}</h3>
+            <a class="link" href="{{ .RelPermalink }}">
+                <span> Scopri tutte le birre</span>
+                <i class="fas fa-chevron-circle-right"></i>
+            </a>
         </div>
-        <div class="product__item">
-            <div class="product__img" style="background-color: #fff"><img src="assets/i/products/bitburger.png" alt=""></div>
-            <h3 class="title">Bitburger</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img"><img src="assets/i/products/vilacher.png" alt=""></div>
-            <h3 class="title">Villacher</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img" style="background-color: #003072"><img src="assets/i/products/birter.png" alt=""></div>
-            <h3 class="title">Hirter</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img" style="background-color: #fff"><img src="assets/i/products/shelpe.png" alt=""></div>
-            <h3 class="title">Schleppe</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img"><img src="assets/i/products/costrizer.png" alt=""></div>
-            <h3 class="title">Kostritzer</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img"><img src="assets/i/products/hacker.png" alt=""></div>
-            <h3 class="title">Hacker-Pschorr</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img"><img src="assets/i/products/AuerBrau.png" alt=""></div>
-            <h3 class="title">AuerBrau</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img" style="background-color: #fff"><img src="assets/i/products/Benediktiner Weissbier.png" alt=""></div>
-            <h3 class="title">Benediktiner Weissbier</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img"><img src="assets/i/products/Licher.jpg" alt=""></div>
-            <h3 class="title">Licher</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img" style="background-color: #fff"><img src="assets/i/products/Forst.png" alt=""></div>
-            <h3 class="title">Forst</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img"><img src="assets/i/products/Warsteiner.png" alt=""></div>
-            <h3 class="title">Warsteiner</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img" style="background-color: #fff"><img src="assets/i/products/Chiemgauer Brauhaus.png" alt=""></div>
-            <h3 class="title">Chiemgauer Brauhaus</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img"><img src="assets/i/products/St. Feuillien.png" alt=""></div>
-            <h3 class="title">St. Feuillien</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img" style="background-color: #fff"><img src="assets/i/products/Eichbaum Brauerei.png" alt=""></div>
-            <h3 class="title">Eichbaum Brauerei</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img" style="background-color: #fff"><img src="assets/i/products/Palm.png" alt=""></div>
-            <h3 class="title">Palm</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img" style="background-color: #fff"><img src="assets/i/products/Steen Brugge.png" alt=""></div>
-            <h3 class="title">Steen Brugge</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img" style="background-color: #fff"><img src="assets/i/products/Rodenbach.png" alt=""></div>
-            <h3 class="title">Rodenbach</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img" style="background-color: #fff"><img src="assets/i/products/Green Flash.png" alt=""></div>
-            <h3 class="title">Green Flash</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
-        <div class="product__item">
-            <div class="product__img"><img src="assets/i/products/Malheur.png" alt=""></div>
-            <h3 class="title">Malheur</h3><a class="link" href="single-product.html"><span> Scopri tutte le birre</span><i class="fas fa-chevron-circle-right"></i></a>
-        </div>
+        {{ end }}
     </div>
-{{ end }}
+    {{ end }}

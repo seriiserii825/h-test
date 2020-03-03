@@ -1,6 +1,35 @@
 {{ define "main" }}
-<h1>Beers single page</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aliquid at dolorem maiores, necessitatibus nisi nobis nostrum officiis, omnis perspiciatis possimus praesentium qui quia recusandae, sunt suscipit? Amet, quia.</p>
-
-{{ .Content }}
-{{ end }}
+<div class="container">
+    <div class="single-product">
+        <div class="single-product__image">
+            <img src="{{ .Params.image | absURL }}" alt="">
+        </div>
+        <div class="single-product__content">
+            <h2 class="single-product__title">{{ .Title }}: {{ .Params.subtitle }}</h2>
+            <div class="single-product__content-wrap">
+                <div class="single-product__text">
+                    <p>{{ .Content }}</p>
+                </div>
+                {{ if and (isset .Params "link") (isset .Params "linktext") }}
+                <div class="single-product__link">
+                    <a target="_blank" href="{{ .Params.link | absURL }}">{{ .Params.linkText }}</a>
+                </div>
+                {{ end }}
+            </div>
+            <div class="single-product__data">
+                <ul class="single-product__list">
+                    {{ range $elem_index, $elem_val := .Params.files }}
+                        {{ range $sub_elem_index, $sub_elem_val := $elem_val}}
+                            <li>
+                                <a class="link link--reverse" href="#">
+                                    <span>{{ $sub_elem_val }}</span>
+                                    <i class="fas fa-chevron-circle-right"></i>
+                                </a>
+                            </li>
+                        {{ end }}
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
+    {{ end }}

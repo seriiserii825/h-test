@@ -15,7 +15,7 @@ link = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/slick/slick/slick.min.js"
 [[params.plugins.js]]
-link = "plugins/jquery-easy-scroll/jquery.easeScroll.js"
+link = "plugins/mixitup/mixitup.min.js"
 
 [taxonomies]
   category = "categories"

@@ -2,22 +2,12 @@
 <div class="container">
     <div class="alte-bevande" id="js-alte-bevande">
         <ul class="alte-bevande__list" id="js-alte-bevande__list">
-            <li data-filter=".bibite">
-                <div class="alte-bevande__img" style="background-image: url('assets/i/categories/bibite.jpg')"></div>
-                <h3 class="title">Bibite</h3>
+            {{ range .Site.Taxonomies.drinkscategories }}
+            <li data-filter=".{{ .Page.Params.slug }}">
+                <div class="alte-bevande__img" style="background-image: url('{{ .Page.Params.imageForFilter | absURL }}')"></div>
+                <h3 class="title">{{ .Page.Title }}</h3>
             </li>
-            <li data-filter=".acque">
-                <div class="alte-bevande__img" style="background-image: url('assets/i/categories/acque.jpg')"></div>
-                <h3 class="title">Acque</h3>
-            </li>
-            <li data-filter=".vini">
-                <div class="alte-bevande__img" style="background-image: url('assets/i/categories/vini.jpg')"></div>
-                <h3 class="title">Vini</h3>
-            </li>
-            <li data-filter=".grappe">
-                <div class="alte-bevande__img" style="background-image: url('assets/i/categories/grappe.jpg')"></div>
-                <h3 class="title">Grappe, distillati e liquori</h3>
-            </li>
+            {{ end }}
         </ul>
         <div class="alte-bevande__content">
 

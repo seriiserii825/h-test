@@ -93,10 +93,6 @@
 <script src="{{ .link | absURL }}"></script>
 {{ end }}
 
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
-<!--<script src="assets/libs/jquery-easy-scroll/jquery.easeScroll.js"></script>-->
-<!--<script src="assets/libs/slick/slick/slick.min.js"></script>-->
-
 {{ $script := resources.Get "js/main.js" }}
 
 {{ $script = $script | minify }}
