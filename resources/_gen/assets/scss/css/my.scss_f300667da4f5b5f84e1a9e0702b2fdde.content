@@ -1183,5 +1183,8 @@ p {
   .privacy-page h2 {
     margin-bottom: 20px;
     margin-top: 40px; }
+  .privacy-page h3 {
+    margin-top: 20px;
+    margin-bottom: 20px; }
 
 /*# sourceMappingURL=my.css.map */
