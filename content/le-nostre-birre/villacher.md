@@ -6,7 +6,7 @@ subtitle: "Il birrifiocio storico della Carinzia"
 link: "https://www.villacher.com/it/?v=fa868488740a"
 linkText: www.villacher.com
 files: [["VILLACHER Selection Red", "files/Scheda-Villacher-Selection-Red.pdf"], ["VILLACHER Pur", "files/Scheda-Villacher-Pur.pdf"]]
-draft: true
+draft: false
 ---
 
 Villacher Brauerei mette insieme la tradizione e l’innovazione di un progetto di successo che fa della Villacher il più importante marchio di birra della Carinzia. Le specialità birrarie sono frutto di una grande attenzione alla qualità.

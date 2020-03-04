@@ -1,6 +1,6 @@
 ---
 title: "Contatti"
 date: 2020-03-04T15:23:51+02:00
-draft: true
+draft: false
 ---
 

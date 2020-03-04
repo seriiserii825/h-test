@@ -6,7 +6,7 @@ subtitle: "Birre a fermentazione spontanea"
 link: ""
 linkText: 
 files: 
-draft: true
+draft: false
 ---
 
 Storico birrificio nato nel cuore del  Pajottenland. Specializzato nella produzione di birre Lambic a fermentazione spontanea. è il più importante produttore di questo stile birrario del Belgio.

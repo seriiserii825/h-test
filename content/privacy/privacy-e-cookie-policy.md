@@ -2,7 +2,7 @@
 title: "Privacy E Cookie Policy"
 date: 2020-03-04T12:32:58+02:00
 slug: "privacy-e-cookie-policy"
-draft: true
+draft: false
 ---
 
 # Informativa sulla Privacy & Cookie Policy

@@ -15,6 +15,6 @@ thirdBlock:
     title: "La nostra storia"
     text: "L’esperienza acquisita sul campo ci permette di offrire consulenza, assistenza e servizi tali da garantire massima qualità e tranquillità ai nostri clienti."
     image: i/e-molto-altro-ancora.jpg
-draft: true"
+draft: false
 ---
 

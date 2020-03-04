@@ -4,7 +4,7 @@ date: 2020-03-04T09:18:46+02:00
 shortText: "Forniamo postazioni mobili per manifestazioni, sagre, ed eventi con impianti di spillatura, tavoli, ombrelloni, chioschi ed eventuale rimorchio / truck allestito."
 image: i/fiere-ed-iventi.jpg
 weight: 3
-draft: true
+draft: false
 ---
 
 Con le nostre attrezzature possiamo accontentare la clientela per **ogni tipo di evento**: sagre paesane, feste della birra, fiere o eventi privati.

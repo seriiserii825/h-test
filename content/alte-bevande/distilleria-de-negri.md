@@ -5,7 +5,7 @@ image: i/categories/bibite.jpg
 drinkscategories: ["bibite"] 
 linksToSite: "https://www.grappadenegri.com/"
 image: i/distilleria-de-negri.jpg
-draft: true
+draft: false
 ---
 
 some content
