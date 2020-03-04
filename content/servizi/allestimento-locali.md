@@ -6,3 +6,7 @@ image: i/allestimento-locali.jpg
 weight: 2
 draft: true
 ---
+
+Di.Be.R. bevande mette a disposizione del gestore le attrezzature adatte alla vendita dei propri prodotti selezionati.
+
+Impianti di **spillatura** su misura in comodato d’uso, **frigo vetrine** per birre e vini, ombrelloni, **materiale pubblicitario** dedicato per dare la giusta visibilità ai prodotti e molto altro ancora.

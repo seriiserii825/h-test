@@ -526,6 +526,19 @@ p {
     height: 100%;
     color: white; }
 
+.services-item {
+  border: 2px solid #008BCF; }
+  .services-item__img {
+    height: 415px;
+    background-size: cover;
+    background-position: center; }
+  .services-item__footer {
+    padding: 32px 36px; }
+  .services-item .title {
+    margin-bottom: 10px; }
+  .services-item p {
+    margin-bottom: 10px; }
+
 @media screen and (max-width: 768px) {
   .services-block__item {
     margin-bottom: 30px; } }

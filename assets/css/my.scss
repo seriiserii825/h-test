@@ -795,6 +795,23 @@ p
     color: white;
   }
 }
+.services-item {
+  border: 2px solid #008BCF;
+  &__img {
+    height: 415px;
+    background-size: cover;
+    background-position: center;
+  }
+  &__footer {
+    padding: 32px 36px;
+  }
+  .title {
+    margin-bottom: 10px;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+}
 
 @media screen and (max-width: 768px)
 {

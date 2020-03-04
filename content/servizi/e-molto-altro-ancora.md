@@ -6,3 +6,7 @@ image: i/e-molto-altro-ancora.jpg
 weight: 4
 draft: true
 ---
+
+L’esperienza che abbiamo maturato in questi anni ci ha aiutati a capire quali sono realmente i prodotti di qualità sul quale vale la pena investire, ed è per questo che **selezioniamo accuratamente** i nostri partner.
+
+Vogliamo che i gestori dei locali siano contenti dei prodotti che acquistano e che credano, come lo crediamo noi, in un progetto. I nostri agenti e sommelier sono formati per saper consigliare e supportare il gestore, personalizzando il pacchetto con prodotti ad-hoc.

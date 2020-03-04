@@ -6,3 +6,9 @@ image: i/fiere-ed-iventi.jpg
 weight: 3
 draft: true
 ---
+
+Con le nostre attrezzature possiamo accontentare la clientela per **ogni tipo di evento**: sagre paesane, feste della birra, fiere o eventi privati.
+
+Forniamo in comodato d’uso impianti di **spillatura, tavoli e panche, ombrelloni e chioschi**.
+
+A disposizione abbiamo anche dei **rimorchi/truck** allestiti per eventi **street food**.
