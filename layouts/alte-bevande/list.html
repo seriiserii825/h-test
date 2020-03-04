@@ -4,7 +4,7 @@
         <ul class="alte-bevande__list" id="js-alte-bevande__list">
             {{ range .Site.Taxonomies.drinkscategories }}
             <li data-filter=".{{ .Page.Params.slug }}">
-                <div class="alte-bevande__img" style="background-image: url('{{ .Page.Params.imageForFilter | absURL }}')"></div>
+                <div class="alte-bevande__img" style="background-image: url('{{ .Page.Params.imageForFilter | relURL }}')"></div>
                 <h3 class="title">{{ .Page.Title }}</h3>
             </li>
             {{ end }}
@@ -16,10 +16,10 @@
             <div class="alte-bevande__item mix {{ . }}">
                 {{ end }}
                 <div class="alte-bevande__img">
-                    <img src="{{ .Params.image | absURL }}" alt="">
+                    <img src="{{ .Params.image | relURL }}" alt="">
                 </div>
                 <h3 class="title">{{ .Title }}
-                    <a target="_blank" class="link" href="{{ .Params.linksToSite | absURL }}">
+                    <a target="_blank" class="link" href="{{ .Params.linksToSite | relURL }}">
                         <span> Visita il sito</span>
                         <i class="fas fa-chevron-circle-right"></i>
                     </a>
