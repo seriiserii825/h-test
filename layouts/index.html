@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div class="main-slider">
-    <div class="main-slider__item" style="background-image: url('{{ .Params.IntroImg | absURL }}')">
+    <div class="main-slider__item" style="background-image: url('{{ .Params.IntroImg | relURL }}')">
         <div class="main-slider__content-wrap">
             <div class="main-slider__content">
                 <h3 class="main-slider__title">{{ .Params.IntroTitle }}</h3>
@@ -17,7 +17,7 @@
 
 <div class="container">
     <section class="intro">
-        <div class="intro__text" style="background-image: url('{{ .Params.ourBeersSectionImageBg | absURL }}')">
+        <div class="intro__text" style="background-image: url('{{ .Params.ourBeersSectionImageBg | relURL }}')">
             <h2 class="title">{{ .Params.ourBeersSectionTitle }}</h2>
             <p>{{ .Params.ourBeersSectionText }}</p>
             <a class="link" href="/le-nostre-birre/">
@@ -27,14 +27,14 @@
         </div>
 
         <div class="intro__img">
-            <img src="{{ .Params.ourBeersSectionImage | absURL }}" alt="">
+            <img src="{{ .Params.ourBeersSectionImage | relURL }}" alt="">
         </div>
     </section>
 
     <div class="categories-block">
         {{ $drinkscategories := .Site.Taxonomies.drinkscategories }}
         {{ range $drinkscategories }}
-        <div class="categories-block__item" style="background-image: url('{{ .Page.Params.imageForBlocks | absURL }}')">
+        <div class="categories-block__item" style="background-image: url('{{ .Page.Params.imageForBlocks | relURL }}')">
             <div class="categories-block__footer">
                 <h4 class="title">{{ .Page.Title }}</h4>
                 <a class="link" href="/alte-bevande/">
@@ -51,7 +51,7 @@
     <section class="services-block">
         <div class="services-block__wrap">
             {{ range where .Site.RegularPages.ByWeight "Section" "servizi" }}
-                <div class="services-block__item" style="background-image: url('{{ .Page.Params.image | absURL }}')">
+                <div class="services-block__item" style="background-image: url('{{ .Page.Params.image | relURL }}')">
                     <a href="/servizi/">
                         <footer class="services-block__footer">
                             <h2 class="title">{{ .Title }}</h2>

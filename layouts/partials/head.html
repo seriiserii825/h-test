@@ -13,7 +13,7 @@
 
     {{ "<!-- Css Plugins --> " | safeHTML }}
     {{ range .Site.Params.plugins.css}}
-    <link rel="stylesheet" type="text/css" href="{{ .link | absURL }}"></link>
+    <link rel="stylesheet" type="text/css" href="{{ .link | relURL }}"></link>
     {{ end }}
 
     {{ "<!-- Main Stylesheet --> " | safeHTML }}
@@ -22,6 +22,6 @@
     <link rel="stylesheet" type="text/css" href="{{ $style.Permalink }}">
 
     {{ "<!--Favicon--> " | safeHTML }}
-    <link rel="shortcut icon" href="{{ `i/favicon.png` | absURL }} " type="image/x-icon">
-    <link rel="icon" href="{{ `i/favicon.png` | absURL }} " type="image/x-icon">
+    <link rel="shortcut icon" href="{{ `i/favicon.png` | relURL }} " type="image/x-icon">
+    <link rel="icon" href="{{ `i/favicon.png` | relURL }} " type="image/x-icon">
 </head>

@@ -2,7 +2,7 @@
 <div class="container">
     <div class="single-product">
         <div class="single-product__image">
-            <img src="{{ .Params.image | absURL }}" alt="">
+            <img src="{{ .Params.image | relURL }}" alt="">
         </div>
         <div class="single-product__content">
             <h2 class="single-product__title">{{ .Title }}: {{ .Params.subtitle }}</h2>
@@ -12,7 +12,7 @@
                 </div>
                 {{ if and (isset .Params "link") (isset .Params "linktext") }}
                 <div class="single-product__link">
-                    <a target="_blank" href="{{ .Params.link | absURL }}">{{ .Params.linkText }}</a>
+                    <a target="_blank" href="{{ .Params.link | relURL }}">{{ .Params.linkText }}</a>
                 </div>
                 {{ end }}
             </div>
@@ -25,7 +25,7 @@
                     {{ $link := index ($elem_val) 1 }}
 
                     <li>
-                        <a target="_blank" class="link link--reverse" href="{{ $link | absURL }}">
+                        <a target="_blank" class="link link--reverse" href="{{ $link | relURL }}">
                             <span>{{ $linkText }}</span>
                             <i class="fas fa-chevron-circle-right"></i>
                         </a>

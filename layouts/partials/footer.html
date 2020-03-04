@@ -7,10 +7,10 @@
                     <div class="main-footer__contacts">
                         <div class="main-footer__contacts__item">{{ .Site.Params.footer.address }}</div>
                         <div class="main-footer__contacts__item">
-                            <a target="_blank" href="{{ .Site.Params.facebook | absURL }}">
+                            <a target="_blank" href="{{ .Site.Params.facebook | relURL }}">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a target="_blank" href="{{ .Site.Params.instagram | absURL }}">
+                            <a target="_blank" href="{{ .Site.Params.instagram | relURL }}">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </div>
@@ -33,26 +33,26 @@
                     <div class="main-footer__partners">
                         <a class="main-footer__partners-item" href="{{ .Site.Params.partners.partner_link }}">
                             <div class="main-footer__partners-item-front">
-                                <img src="{{ .Site.Params.partners.partner_1_img | absURL }}" alt="">
+                                <img src="{{ .Site.Params.partners.partner_1_img | relURL }}" alt="">
                             </div>
                             <div class="main-footer__partners-item-back">
-                                <img src="{{ .Site.Params.partners.partner_1_img | absURL }}" alt="">
+                                <img src="{{ .Site.Params.partners.partner_1_img | relURL }}" alt="">
                             </div>
                         </a>
                         <a class="main-footer__partners-item" href="{{ .Site.Params.partners.partner_link }}">
                             <div class="main-footer__partners-item-front">
-                                <img src="{{ .Site.Params.partners.partner_2_img | absURL }}" alt="">
+                                <img src="{{ .Site.Params.partners.partner_2_img | relURL }}" alt="">
                             </div>
                             <div class="main-footer__partners-item-back">
-                                <img src="{{ .Site.Params.partners.partner_2_img | absURL }}" alt="">
+                                <img src="{{ .Site.Params.partners.partner_2_img | relURL }}" alt="">
                             </div>
                         </a>
                         <a class="main-footer__partners-item" href="{{ .Site.Params.partners.partner_link }}">
                             <div class="main-footer__partners-item-front">
-                                <img src="{{ .Site.Params.partners.partner_3_img | absURL }}" alt="">
+                                <img src="{{ .Site.Params.partners.partner_3_img | relURL }}" alt="">
                             </div>
                             <div class="main-footer__partners-item-back">
-                                <img src="{{ .Site.Params.partners.partner_3_img | absURL }}" alt="">
+                                <img src="{{ .Site.Params.partners.partner_3_img | relURL }}" alt="">
                             </div>
                         </a>
                     </div>
@@ -114,7 +114,7 @@
 
 {{ "<!-- JS Plugins --> " | safeHTML }}
 {{ range .Site.Params.plugins.js}}
-<script src="{{ .link | absURL }}"></script>
+<script src="{{ .link | relURL }}"></script>
 {{ end }}
 
 {{ $script := resources.Get "js/main.js" }}

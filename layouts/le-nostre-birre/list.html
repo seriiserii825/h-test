@@ -4,7 +4,7 @@
         {{ range .Pages }}
         <div class="product__item">
             <div class="product__img">
-                <img src="{{ .Params.image | absURL }}" alt="">
+                <img src="{{ .Params.image | relURL }}" alt="">
             </div>
             
             <h3 class="title">{{ .Title }}</h3>
