@@ -411,7 +411,6 @@ p
 {
   display: inline-block;
   margin-right: 10px;
-  text-transform: uppercase;
 }
 
 .main-slider
@@ -1596,6 +1595,7 @@ p
 .single-product__list a
 {
   line-height: 2.4;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 900px)

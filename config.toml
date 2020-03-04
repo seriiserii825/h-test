@@ -4,6 +4,8 @@ title = "My New Hugo Site"
 
 [params]
 logo = "i/logo.svg"
+facebook = "https://www.facebook.com/DiBeRImportBirra/"
+instagram = "https://www.instagram.com/diber_birra/"
 
 # Css Plugins
 [[params.plugins.css]]
