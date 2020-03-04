@@ -34,8 +34,6 @@ link = "plugins/fontawesome/css/all.min.css"
 
 # JS Plugins
 [[params.plugins.js]]
-link = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
-[[params.plugins.js]]
 link = "plugins/slick/slick/slick.min.js"
 [[params.plugins.js]]
 link = "plugins/mixitup/mixitup.min.js"
