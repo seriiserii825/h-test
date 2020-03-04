@@ -26,7 +26,7 @@ phone_clear = "+390438941681"
 
     
 [permalinks]
-  pages = "/:slug/"
+  privacy = "/:slug/"
 
 # Css Plugins
 [[params.plugins.css]]
