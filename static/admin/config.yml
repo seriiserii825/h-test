@@ -1,0 +1,15 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "static/i"
+publick_folder: "uploads"
+
+collections:
+  - name: "alte-bevande"
+    label: "Alte bevande"
+    folder: "content/alte-bavande"
+    create: true
+    slug: "{{ slug }}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string", required: true}
