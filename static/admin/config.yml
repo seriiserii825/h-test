@@ -14,7 +14,7 @@ collections:
         file: "config.toml"
         fields: 
           - label: "Title"
-            name: "title"
+            name: "params.title"
             widget: "string"
 
   - label: "Alte bevande"

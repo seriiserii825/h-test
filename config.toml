@@ -1,8 +1,8 @@
 baseURL = ""
 languageCode = "en-us"
-title = "Hugo Site For Me"
 
 [params]
+title = "Hugo Site For You"
 facebook = "https://www.facebook.com/DiBeRImportBirra/"
 logo = "i/logo.svg"
 phone = "+39 (0) 438 941681"
