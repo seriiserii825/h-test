@@ -5,6 +5,7 @@ image: i/categories/bibite.jpg
 drinkscategories: ["bibite"] 
 linksToSite: "http://www.campari.com/it"
 image: i/campari.jpg
+slug: ""
 draft: false
 ---
 

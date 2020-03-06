@@ -5,6 +5,7 @@ image: i/categories/bibite.jpg
 drinkscategories: ["aque"] 
 linksToSite: "https://recoaro.it/"
 image: i/recoaro.jpg
+slug: ""
 draft: false
 ---
 

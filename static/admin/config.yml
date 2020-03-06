@@ -113,10 +113,20 @@ collections:
     name: "alte-bevande"
     folder: "content/alte-bevande"
     create: true
-    slug: "{{ slug }}"
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Date", name: "date", widget: "date"}
+      - {label: "Link to site", name: "linksToSite", widget: "string"}
+      - {label: "Category", name: "drinkscategories", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Slug", name: "slug", widget: "string"}
+  - label: "Le nostre birre"
+    name: "le-nostre-birre"
+    folder: "content/le-nostre-birre"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
   - label: "Chi-siamo"
     name: "chi-siamo"

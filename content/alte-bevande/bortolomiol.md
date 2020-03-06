@@ -5,6 +5,7 @@ image: i/categories/bibite.jpg
 drinkscategories: ["vini"] 
 linksToSite: "https://www.bortolomiol.com/"
 image: i/bortolomiol.jpg
+slug: ""
 draft: false
 ---
 

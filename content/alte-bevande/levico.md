@@ -5,6 +5,7 @@ image: i/categories/bibite.jpg
 drinkscategories: ["aque"] 
 linksToSite: "https://www.levicoacque.it/"
 image: i/levico.jpg
+slug: ""
 draft: false
 ---
 
