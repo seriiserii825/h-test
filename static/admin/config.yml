@@ -57,6 +57,30 @@ collections:
           - {label: "Our beers btn text", name: "ourBeersSectionBtnText", widget: "string"}
           - {label: "Our beers image bg", name: "ourBeersSectionImageBg", widget: "image"}
           - {label: "Our beers image", name: "ourBeersSectionImage", widget: "image"}
+      - label: "Chi siamo"
+        name: "chisiamo"
+        file: "content/chi-siamo/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", required: true}
+          - {label: "Image", name: "image", widget: "image"}
+          - label: "First block"
+            name: "firstBlock"
+            widget: "object"
+            fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "Text", name: "text", widget: "markdown"}
+          - label: "Second block"
+            name: "secondBlock"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Text", name: "text", widget: "markdown"}
+          - label: "Third block"
+            name: "thirdBlock"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Text", name: "text", widget: "markdown"}
 
   - label: "Alte bevande"
     name: "alte-bevande"
