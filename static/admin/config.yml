@@ -6,10 +6,12 @@ media_folder: "static/i"
 publick_folder: "uploads"
 
 collections:
-  - name: "alte-bevande"
-    label: "Alte bevande"
+  - label: "Alte bevande"
+    name: "alte-bevande"
     folder: "content/alte-bavande"
     create: true
     slug: "{{ slug }}"
-    fields: 
+    fields:
       - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Image", name: "image", widget: "markdown"}
