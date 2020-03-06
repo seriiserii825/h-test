@@ -1,6 +1,6 @@
 baseURL = ""
 languageCode = "en-us"
-title = "Hugo Site"
+title = "Hugo Site For Me"
 
 [params]
 facebook = "https://www.facebook.com/DiBeRImportBirra/"
