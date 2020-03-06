@@ -59,6 +59,7 @@ collections:
           - {label: "Our beers image", name: "ourBeersSectionImage", widget: "image"}
       - label: "Chi siamo"
         name: "chisiamo"
+        slug: "{{slug}}"
         file: "content/chi-siamo/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string", required: true}

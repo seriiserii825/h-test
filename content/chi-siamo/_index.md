@@ -2,6 +2,7 @@
 title: "Chi Si Amo"
 date: 2020-03-04T15:04:04+02:00
 image: i/chi-siamo.jpg 
+slug: "chi-siamo"
 firstBlock: 
     title:  "Chi siamo"
     text: "Di.Be.R Bevande è specializzata nella fornitura di birra e bevande di ogni genere ai locali delle zone del trevigiano, pordenonese e del bellunese.
