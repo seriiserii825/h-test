@@ -2,13 +2,13 @@ baseURL = ""
 languageCode = "en-us"
 
 [params]
-title = "Hugo Site For You"
 facebook = "https://www.facebook.com/DiBeRImportBirra/"
-instagram = "https://www.instagram.com/diber_birra/"
-email = "diber@diberbevande.it"
-phone = "+39 (0) 438 941681"
-phone_clear = "+390438941681"
 logo = "i/logo.svg"
+phone = "+39 (0) 438 941681"
+instagram = "https://www.instagram.com/diber_birra/"
+title = "Hugo Site For You"
+phone_clear = "+390438941681"
+email = "diber@diberbevande.it"
 
 [params.plugins]
 
@@ -25,11 +25,14 @@ link = "plugins/mixitup/mixitup.min.js"
 partner_1_img = "i/birter-logo.png"
 partner_2_img = "i/aldersbacher.png"
 partner_3_img = "i/cornelissen.png"
+"partner_1_img " = "/static/i/aldersbacher.png"
+"partner_2_img " = "/static/i/birter-logo.png"
+"partner_3_img " = "/static/i/cornelissen.png"
 
 [params.footer]
 address = "Via Trentino 22, 31029 - Vittorio Veneto (TV) (Zona Industriale S. Giacomo di Veglia)"
 hours = "08.00 - 12.00 e 13.00 - 17.30"
-hours_saturday = "08.30 - 12.00"
+hours_saturday = "08.30 - 12.30"
 map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2773.612390166544!2d12.31806391580244!3d45.9590269083091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477913a9bd0bee31%3A0xf64f6a80d8fbe1fc!2zVmlhIFRyZW50aW5vLCAyMiwgMzEwMjkgVml0dG9yaW8gVmVuZXRvIFRWLCDQmNGC0LDQu9C40Y8!5e0!3m2!1sru!2s!4v1580207053086!5m2!1sru!2s"
 privacy = "Rasera Gianni D.I. – Partita Iva: 03083120265.<br>Copyright (C) 2020. Tutti i diritti riservati. <a target=\"_blank\" href=\"/privacy-e-cookie-policy/\" target=\"_blank\" rel=\"noopener\">Privacy and Cookie policy.</a>"
 
