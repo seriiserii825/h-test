@@ -19,7 +19,7 @@
                     <img src="{{ .Params.image | relURL }}" alt="">
                 </div>
                 <h3 class="title">{{ .Title }}
-                    <a target="_blank" class="link" href="{{ .RelPermalink }}">
+                    <a target="_blank" class="link" href="{{ .Params.linksToSite | relURL }}">
                         <span> Visita il sito</span>
                         <i class="fas fa-chevron-circle-right"></i>
                     </a>
@@ -27,5 +27,6 @@
             </div>
             {{ end }}
         </div>
+        <a style="display: none;" href="{{ .RelPermalink }}"></a>
     </div>
     {{ end }}
