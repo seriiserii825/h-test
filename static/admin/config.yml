@@ -9,15 +9,14 @@ collections:
   - name: "website-settings"
     label: "Website settings"
     files:
-      - label: "Website settings"
-        name: "site"
+      - label: "Site settings"
+        name: "another_settings"
         file: "config.toml"
         fields: 
           - label: "Params"
             name: "params"
             widget: "object"
             fields:
-            - {label: "Title", name: "title", widget: "string", required: true}
             - {label: "Facebook", name: "facebook", widget: "string"}
             - {label: "Instagram", name: "instagram", widget: "string"}
             - {label: "Email", name: "email", widget: "string"}
