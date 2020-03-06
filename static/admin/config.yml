@@ -131,7 +131,7 @@ collections:
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Link", name: "link", widget: "string"}
-      - {label: "Link text", name: "linkText", widget: "string"}
+      - {label: "Link tex", name: "linkText", widget: "string"}
   - label: "Chi-siamo"
     name: "chi-siamo"
     folder: "content/chi-siamo"
@@ -149,4 +149,4 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Image", name: "image", widget: "markdown"}
+      - {label: "Image", name: "image", widget: "string"}
