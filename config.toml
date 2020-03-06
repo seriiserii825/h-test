@@ -25,9 +25,6 @@ link = "plugins/mixitup/mixitup.min.js"
 partner_1_img = "i/birter-logo.png"
 partner_2_img = "i/aldersbacher.png"
 partner_3_img = "i/cornelissen.png"
-"partner_1_img " = "/static/i/aldersbacher.png"
-"partner_2_img " = "/static/i/birter-logo.png"
-"partner_3_img " = "/static/i/cornelissen.png"
 
 [params.footer]
 address = "Via Trentino 22, 31029 - Vittorio Veneto (TV) (Zona Industriale S. Giacomo di Veglia)"

@@ -41,6 +41,21 @@ collections:
               - {label: "Map", name: "map", widget: "string"}
               - {label: "Privacy", name: "privacy", widget: "markdown"}
 
+  - label: "Home page"
+    name: "content"
+    folder: "content"
+    slug: "{{ slug }}"
+    fields:
+      - {label: "Intro title", name: "introTitle", widget: "string", required: true}
+      - {label: "Intro text", name: "introText", widget: "string"}
+      - {label: "Intro image", name: "introImg", widget: "image"}
+      - {label: "Intro btn text", name: "introBtnText", widget: "string"}
+      - {label: "Our beers title", name: "ourBeersSectionTitle", widget: "string"}
+      - {label: "Our beers text", name: "ourBeersSectionText", widget: "string"}
+      - {label: "Our beers btn text", name: "ourBeersSectionBtnText", widget: "string"}
+      - {label: "Our beers image bg", name: "ourBeersSectionImageBg", widget: "image"}
+      - {label: "Our beers image", name: "ourBeersSectionImage", widget: "image"}
+
   - label: "Alte bevande"
     name: "alte-bevande"
     folder: "content/alte-bevande"
