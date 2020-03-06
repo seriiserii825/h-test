@@ -12,49 +12,51 @@ collections:
       - label: "Site settings"
         name: "another_settings"
         file: "config.toml"
-        fields: 
+        fields:
           - label: "Params"
             name: "params"
             widget: "object"
             fields:
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Facebook", name: "facebook", widget: "string"}
-            - {label: "Instagram", name: "instagram", widget: "string"}
-            - {label: "Email", name: "email", widget: "string"}
-            - {label: "Phone", name: "phone", widget: "string"}
-            - {label: "Phone clear", name: "phone_clear", widget: "string"}
-            - {label: "Logo", name: "logo", widget: "image"}
-            - label: "Partners"
-              name: "partners"
-              widget: "object"
-              fields:
-              - {label: "Partner 1 image", name: "partner_1_img ", widget: "image"}
-              - {label: "Partner 2 image", name: "partner_2_img ", widget: "image"}
-              - {label: "Partner 3 image", name: "partner_3_img ", widget: "image"}
-            - label: "Footer"
-              name: "footer"
-              widget: "object"
-              fields:
-              - {label: "Address", name: "address", widget: "string"}
-              - {label: "Hours", name: "hours", widget: "string"}
-              - {label: "Hours saturday", name: "hours_saturday", widget: "string"}
-              - {label: "Map", name: "map", widget: "string"}
-              - {label: "Privacy", name: "privacy", widget: "markdown"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Facebook", name: "facebook", widget: "string"}
+              - {label: "Instagram", name: "instagram", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "Phone", name: "phone", widget: "string"}
+              - {label: "Phone clear", name: "phone_clear", widget: "string"}
+              - {label: "Logo", name: "logo", widget: "image"}
+              - label: "Partners"
+                name: "partners"
+                widget: "object"
+                fields:
+                  - {label: "Partner 1 image", name: "partner_1_img ", widget: "image"}
+                  - {label: "Partner 2 image", name: "partner_2_img ", widget: "image"}
+                  - {label: "Partner 3 image", name: "partner_3_img ", widget: "image"}
+              - label: "Footer"
+                name: "footer"
+                widget: "object"
+                fields:
+                  - {label: "Address", name: "address", widget: "string"}
+                  - {label: "Hours", name: "hours", widget: "string"}
+                  - {label: "Hours saturday", name: "hours_saturday", widget: "string"}
+                  - {label: "Map", name: "map", widget: "string"}
+                  - {label: "Privacy", name: "privacy", widget: "markdown"}
 
-  - label: "Home page"
+  - label: "Pages"
     name: "content"
-    folder: "content"
-    slug: "{{ slug }}"
-    fields:
-      - {label: "Intro title", name: "introTitle", widget: "string", required: true}
-      - {label: "Intro text", name: "introText", widget: "string"}
-      - {label: "Intro image", name: "introImg", widget: "image"}
-      - {label: "Intro btn text", name: "introBtnText", widget: "string"}
-      - {label: "Our beers title", name: "ourBeersSectionTitle", widget: "string"}
-      - {label: "Our beers text", name: "ourBeersSectionText", widget: "string"}
-      - {label: "Our beers btn text", name: "ourBeersSectionBtnText", widget: "string"}
-      - {label: "Our beers image bg", name: "ourBeersSectionImageBg", widget: "image"}
-      - {label: "Our beers image", name: "ourBeersSectionImage", widget: "image"}
+    files:
+      - label: "Home"
+        name: "home"
+        file: "content/_index.md"
+        fields:
+          - {label: "Intro title", name: "introTitle", widget: "string", required: true}
+          - {label: "Intro text", name: "introText", widget: "string"}
+          - {label: "Intro image", name: "introImg", widget: "image"}
+          - {label: "Intro btn text", name: "introBtnText", widget: "string"}
+          - {label: "Our beers title", name: "ourBeersSectionTitle", widget: "string"}
+          - {label: "Our beers text", name: "ourBeersSectionText", widget: "string"}
+          - {label: "Our beers btn text", name: "ourBeersSectionBtnText", widget: "string"}
+          - {label: "Our beers image bg", name: "ourBeersSectionImageBg", widget: "image"}
+          - {label: "Our beers image", name: "ourBeersSectionImage", widget: "image"}
 
   - label: "Alte bevande"
     name: "alte-bevande"
