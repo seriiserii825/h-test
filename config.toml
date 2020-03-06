@@ -2,13 +2,13 @@ baseURL = ""
 languageCode = "en-us"
 
 [params]
-title = "Hugo Site For You"
 facebook = "https://www.facebook.com/DiBeRImportBirra/"
-instagram = "https://www.instagram.com/diber_birra/"
-email = "diber@diberbevande.it"
-phone = "+39 (0) 438 941681"
-phone_clear = "+390438941681"
 logo = "i/logo.svg"
+phone = "+39 (0) 438 941681"
+instagram = "https://www.instagram.com/diber_birra/"
+title = "Hugo Site For You"
+phone_clear = "+390438941681"
+email = "diber@diberbevande.it"
 
 [params.plugins]
 
@@ -25,6 +25,9 @@ link = "plugins/mixitup/mixitup.min.js"
 partner_1_img = "i/birter-logo.png"
 partner_2_img = "i/aldersbacher.png"
 partner_3_img = "i/cornelissen.png"
+"partner_1_img " = "/static/i/aldersbacher.png"
+"partner_2_img " = "/static/i/birter-logo.png"
+"partner_3_img " = "/static/i/cornelissen.png"
 
 [params.footer]
 address = "Via Trentino 22, 31029 - Vittorio Veneto (TV) (Zona Industriale S. Giacomo di Veglia)"
