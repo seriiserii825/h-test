@@ -14,7 +14,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Image", name: "image", widget: "markdown"}
+      - {label: "Image", name: "image", widget: "image"}
   - label: "Chi-siamo"
     name: "chi-siamo"
     folder: "content/chi-siamo"
