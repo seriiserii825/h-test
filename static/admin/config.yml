@@ -6,9 +6,20 @@ media_folder: "static/i"
 publick_folder: "uploads"
 
 collections:
+  - name: "website-settings"
+    label: "Website settings"
+    files:
+      - label: "Website settings"
+        name: "site"
+        file: "config.toml"
+        fields: 
+          - label: "Title"
+            name: "title"
+            widget: "string"
+
   - label: "Alte bevande"
     name: "alte-bevande"
-    folder: "content/alte-bavande"
+    folder: "content/alte-bevande"
     create: true
     slug: "{{ slug }}"
     fields:
@@ -22,8 +33,8 @@ collections:
     slug: "{{ slug }}"
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Image", name: "image", widget: "markdown"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "First block", name: "image", widget: "markdown"}
   - label: "Servizi"
     name: "servizi"
     folder: "content/servizi"
