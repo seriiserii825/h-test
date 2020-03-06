@@ -49,6 +49,7 @@ collections:
         file: "content/_index.md"
         fields:
           - {label: "Intro title", name: "introTitle", widget: "string", required: true}
+          - {label: "Slug", name: "slug", widget: "string"}
           - {label: "Intro text", name: "introText", widget: "string"}
           - {label: "Intro image", name: "introImg", widget: "image"}
           - {label: "Intro btn text", name: "introBtnText", widget: "string"}
@@ -57,12 +58,30 @@ collections:
           - {label: "Our beers btn text", name: "ourBeersSectionBtnText", widget: "string"}
           - {label: "Our beers image bg", name: "ourBeersSectionImageBg", widget: "image"}
           - {label: "Our beers image", name: "ourBeersSectionImage", widget: "image"}
+      - label: "Le nostre birre"
+        name: "le-nostre-birre"
+        file: "content/le-nostre-birre/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", required: true}
+          - {label: "Slug", name: "slug", widget: "string"}
+      - label: "Alte bevande"
+        name: "alte-bevande"
+        file: "content/alte-bevande/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", required: true}
+          - {label: "Slug", name: "slug", widget: "string"}
+      - label: "Servizi"
+        name: "servizi"
+        file: "content/servizi/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", required: true}
+          - {label: "Slug", name: "slug", widget: "string"}
       - label: "Chi siamo"
         name: "chisiamo"
-        slug: "{{slug}}"
         file: "content/chi-siamo/_index.md"
         fields:
           - {label: "Title", name: "title", widget: "string", required: true}
+          - {label: "Slug", name: "slug", widget: "string"}
           - {label: "Image", name: "image", widget: "image"}
           - label: "First block"
             name: "firstBlock"
@@ -82,6 +101,13 @@ collections:
             fields:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Text", name: "text", widget: "markdown"}
+              - {label: "Image", name: "image", widget: "image"}
+      - label: "Contatti"
+        name: "contatti"
+        file: "content/contatti/_index.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string", required: true}
+          - {label: "Slug", name: "slug", widget: "string"}
 
   - label: "Alte bevande"
     name: "alte-bevande"
