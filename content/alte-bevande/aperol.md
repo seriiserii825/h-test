@@ -1,9 +1,9 @@
 ---
-title: "Aperol"
-date: 2020-03-02T15:31:41+02:00
-drinkscategories: ["grappe-distillati-e-liquori"]
-linksToSite: "https://www.aperol.com/it"
+title: Aperol
+slug: aperol
+date: 2020-03-02T13:31:41.000Z
+linksToSite: 'https://www.aperol.com/it'
+drinkscategories: vini
 image: i/aperol.jpg
-slug: "aperol"
 draft: false
 ---
