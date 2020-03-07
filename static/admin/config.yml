@@ -118,7 +118,7 @@ collections:
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Date", name: "date", widget: "date"}
       - {label: "Link to site", name: "linksToSite", widget: "string"}
-      - {label: "Category", name: "drinkscategories", widget: "string"}
+      - {label: "Category", name: "drinkscategories", widget: "select", options: ["aque", "bibite", "vini", "grappe-distilate-e-liquori"]}
       - {label: "Image", name: "image", widget: "image"}
   - label: "Le nostre birre"
     name: "le-nostre-birre"
@@ -136,17 +136,26 @@ collections:
     name: "chi-siamo"
     folder: "content/chi-siamo"
     create: true
-    slug: "{{ slug }}"
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "First block", name: "image", widget: "markdown"}
   - label: "Servizi"
     name: "servizi"
     folder: "content/servizi"
     create: true
-    slug: "{{ slug }}"
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Image", name: "image", widget: "string"}
+  - label: "Drinkscategory"
+    name: "drinkscategories"
+    folder: "content/drinkscategories"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Image", name: "image", widget: "string"}
