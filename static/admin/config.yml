@@ -29,20 +29,20 @@ collections:
                 widget: "object"
                 fields:
                   - {
-                      label: "Partner 1 image",
-                      name: "partner_1_img ",
-                      widget: "image",
-                    }
+                    label: "Partner 1 image",
+                    name: "partner_1_img ",
+                    widget: "image",
+                  }
                   - {
-                      label: "Partner 2 image",
-                      name: "partner_2_img ",
-                      widget: "image",
-                    }
+                    label: "Partner 2 image",
+                    name: "partner_2_img ",
+                    widget: "image",
+                  }
                   - {
-                      label: "Partner 3 image",
-                      name: "partner_3_img ",
-                      widget: "image",
-                    }
+                    label: "Partner 3 image",
+                    name: "partner_3_img ",
+                    widget: "image",
+                  }
               - label: "Footer"
                 name: "footer"
                 widget: "object"
@@ -50,10 +50,10 @@ collections:
                   - { label: "Address", name: "address", widget: "string" }
                   - { label: "Hours", name: "hours", widget: "string" }
                   - {
-                      label: "Hours saturday",
-                      name: "hours_saturday",
-                      widget: "string",
-                    }
+                    label: "Hours saturday",
+                    name: "hours_saturday",
+                    widget: "string",
+                  }
                   - { label: "Map", name: "map", widget: "string" }
                   - { label: "Privacy", name: "privacy", widget: "markdown" }
 
@@ -65,40 +65,40 @@ collections:
         file: "content/_index.md"
         fields:
           - {
-              label: "Intro title",
-              name: "introTitle",
-              widget: "string",
-              required: true,
-            }
+            label: "Intro title",
+            name: "introTitle",
+            widget: "string",
+            required: true,
+          }
           - { label: "Slug", name: "slug", widget: "string" }
           - { label: "Intro text", name: "introText", widget: "string" }
           - { label: "Intro image", name: "introImg", widget: "image" }
           - { label: "Intro btn text", name: "introBtnText", widget: "string" }
           - {
-              label: "Our beers title",
-              name: "ourBeersSectionTitle",
-              widget: "string",
-            }
+            label: "Our beers title",
+            name: "ourBeersSectionTitle",
+            widget: "string",
+          }
           - {
-              label: "Our beers text",
-              name: "ourBeersSectionText",
-              widget: "string",
-            }
+            label: "Our beers text",
+            name: "ourBeersSectionText",
+            widget: "string",
+          }
           - {
-              label: "Our beers btn text",
-              name: "ourBeersSectionBtnText",
-              widget: "string",
-            }
+            label: "Our beers btn text",
+            name: "ourBeersSectionBtnText",
+            widget: "string",
+          }
           - {
-              label: "Our beers image bg",
-              name: "ourBeersSectionImageBg",
-              widget: "image",
-            }
+            label: "Our beers image bg",
+            name: "ourBeersSectionImageBg",
+            widget: "image",
+          }
           - {
-              label: "Our beers image",
-              name: "ourBeersSectionImage",
-              widget: "image",
-            }
+            label: "Our beers image",
+            name: "ourBeersSectionImage",
+            widget: "image",
+          }
       - label: "Le nostre birre"
         name: "le-nostre-birre"
         file: "content/le-nostre-birre/_index.md"
@@ -160,14 +160,14 @@ collections:
       - { label: "Date", name: "date", widget: "date" }
       - { label: "Link to site", name: "linksToSite", widget: "string" }
       - {
-          label: "Category",
-          name: "drinkscategories",
-          widget: "relation",
-          collection: "content",
-          displayFields: "label",
-          searchFields: "label",
-          valueField: "label",
-        }
+        label: "Category",
+        name: "drinkscategories",
+        widget: "relation",
+        collection: "content",
+        displayFields: "name.title",
+        searchFields: "name.title",
+        valueField: "name.title",
+      }
       - { label: "Image", name: "image", widget: "image" }
   - label: "Le nostre birre"
     name: "le-nostre-birre"
