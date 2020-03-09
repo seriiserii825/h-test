@@ -1,7 +1,6 @@
 @font-face {
   font-family: "PT sans";
-  src: url("../fonts/ptsans.woff2") format("woff2"),
-    url("../fonts/ptsans.woff") format("woff");
+  src: url("../fonts/ptsans.woff2") format("woff2"), url("../fonts/ptsans.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -654,28 +653,35 @@ p {
   border: 2px solid #008bcf;
   opacity: 0.8;
   transition: all 0.4s;
+
   &:hover {
     opacity: 1;
   }
+
   a {
     display: block;
     height: 100%;
     color: white;
   }
 }
+
 .services-item {
   border: 2px solid #008bcf;
+
   &__img {
     height: 415px;
     background-size: cover;
     background-position: center;
   }
+
   &__footer {
     padding: 32px 36px;
   }
+
   .title {
     margin-bottom: 10px;
   }
+
   p {
     margin-bottom: 10px;
   }
@@ -829,13 +835,16 @@ p {
   transform-style: preserve-3d;
   perspective: 1000px;
   cursor: pointer;
+
   &:hover .main-footer__partners-item-front {
     transform: translateY(-50%) rotateY(-180deg);
     z-index: 100;
   }
+
   &:hover .main-footer__partners-item-back {
     transform: translateY(-50%) rotateY(0deg);
   }
+
   &-front {
     position: absolute;
     top: 50%;
@@ -848,6 +857,7 @@ p {
     transition: all 0.6s ease;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
   }
+
   &-back {
     position: absolute;
     top: 50%;
@@ -970,7 +980,7 @@ p {
   margin: 10px 0 0 20px;
 }
 
-.main-footer__form .form-group .checkbox + label {
+.main-footer__form .form-group .checkbox+label {
   position: relative;
   cursor: pointer;
   display: inline-block;
@@ -980,7 +990,7 @@ p {
   text-transform: none;
 }
 
-.checkbox + label:before {
+.checkbox+label:before {
   content: "";
   position: absolute;
   top: 7px;
@@ -995,18 +1005,18 @@ p {
 }
 
 @media screen and (max-width: 1830px) {
-  .checkbox + label:before {
+  .checkbox+label:before {
     top: -3px;
   }
 }
 
 @media screen and (max-width: 830px) {
-  .checkbox + label:before {
+  .checkbox+label:before {
     top: 7px;
   }
 }
 
-.checkbox + label:after {
+.checkbox+label:after {
   content: "\f00c";
   position: absolute;
   font-family: "Font Awesome 5 Pro";
@@ -1021,18 +1031,18 @@ p {
 }
 
 @media screen and (max-width: 1830px) {
-  .checkbox + label:after {
+  .checkbox+label:after {
     top: -3px;
   }
 }
 
 @media screen and (max-width: 830px) {
-  .checkbox + label:after {
+  .checkbox+label:after {
     top: 7px;
   }
 }
 
-.checkbox:checked + label:after {
+.checkbox:checked+label:after {
   opacity: 1;
 }
 
@@ -1491,17 +1501,21 @@ p {
 .contacts {
   padding: 30px 0;
 }
+
 .privacy-page {
   margin: 0 auto;
   padding: 80px 0;
   max-width: 1280px;
+
   h1 {
     margin-bottom: 40px;
   }
+
   h2 {
     margin-bottom: 20px;
     margin-top: 40px;
   }
+
   h3 {
     margin-top: 20px;
     margin-bottom: 20px;

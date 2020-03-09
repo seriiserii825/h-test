@@ -6,10 +6,9 @@
     <div class="container">
         <section class="services-block">
             <div class="services-block__wrap">
-            {{ range .RegularPages.ByWeight }}
+                {{ range .RegularPages.ByWeight }}
                 <div class="services-item">
-                    <div class="services-item__img"
-                        style="background-image: url('{{ .Page.Params.image | relURL }}')">
+                    <div class="services-item__img" style="background-image: url('{{ .Page.Params.image | relURL }}')">
                     </div>
                     <footer class="services-item__footer">
                         <h2 class="title">{{ .Title }}</h2>
@@ -18,10 +17,10 @@
                         </div>
                     </footer>
                 </div>
-            {{ end }}
+                {{ end }}
             </div>
         </section>
     </div>
 </div>
 <div class="container">
-{{ end }}
+    {{ end }}
