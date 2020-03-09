@@ -1,5 +1,6 @@
 ---
 title: "Villacher"
+slug: "villacher"
 date: 2020-03-03T15:24:44+02:00
 image: i/Villacher.jpg
 subtitle: "Il birrifiocio storico della Carinzia"

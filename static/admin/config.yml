@@ -113,6 +113,7 @@ collections:
     name: "alte-bevande"
     folder: "content/alte-bevande"
     create: true
+    slug: "{{ slug }}"
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Slug", name: "slug", widget: "string"}
@@ -133,6 +134,7 @@ collections:
     name: "le-nostre-birre"
     folder: "content/le-nostre-birre"
     create: true
+    slug: "{{ slug }}"
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Slug", name: "slug", widget: "string"}
