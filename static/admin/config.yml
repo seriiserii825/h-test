@@ -142,8 +142,8 @@ collections:
       - {label: "Date", name: "date", widget: "date"}
       - {label: "Subtitle", name: "subtitle", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Link", name: "link", widget: "string"}
-      - {label: "Link tex", name: "linkText", widget: "string"}
+      - {label: "Link", name: "link", widget: "string", required: false}
+      - {label: "Link tex", name: "linkText", widget: "string", required: false}
   - label: "Chi-siamo"
     name: "chi-siamo"
     folder: "content/chi-siamo"
