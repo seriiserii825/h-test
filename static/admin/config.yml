@@ -125,6 +125,7 @@ collections:
         searchFields: ["slug"],
         valueField: "slug",
         displayFields: ["title"],
+        multiple: true,
         widget: "relation"
       }
       - {label: "Image", name: "image", widget: "image"}
