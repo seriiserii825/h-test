@@ -122,8 +122,8 @@ collections:
         label: "Category",
         name: "drinkscategories",
         collection: "drinkscategories",
-        searchFields: ["title"],
-        valueField: "title",
+        searchFields: ["slug"],
+        valueField: "slug",
         displayFields: ["title"],
         widget: "relation"
       }
