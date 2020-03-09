@@ -11,11 +11,6 @@
     {{ end }}
     {{ hugo.Generator }}
 
-    {{ "<!-- Css Plugins --> " | safeHTML }}
-    {{ range .Site.Params.plugins.css}}
-    <link rel="stylesheet" type="text/css" href="{{ .link | relURL }}"></link>
-    {{ end }}
-
     {{ "<!-- Main Stylesheet --> " | safeHTML }}
     {{ $style := resources.Get "css/my.scss" }}
     {{ $style = $style | toCSS }}
