@@ -87,8 +87,8 @@ collections:
             name: "firstBlock"
             widget: "object"
             fields:
-            - {label: "Title", name: "title", widget: "string"}
-            - {label: "Text", name: "text", widget: "markdown"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Text", name: "text", widget: "markdown"}
           - label: "Second block"
             name: "secondBlock"
             widget: "object"
@@ -118,7 +118,15 @@ collections:
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Date", name: "date", widget: "date"}
       - {label: "Link to site", name: "linksToSite", widget: "string"}
-      - {label: "Category", name: "drinkscategories", widget: "string"}
+      - {
+        label: "Category",
+        name: "drinkscategories",
+        collection: "drinkscategories",
+        searchFields: ["title"],
+        valueField: "title",
+        displayFields: ["title"],
+        widget: "relation"
+      }
       - {label: "Image", name: "image", widget: "image"}
   - label: "Le nostre birre"
     name: "le-nostre-birre"
