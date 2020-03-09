@@ -170,4 +170,8 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Image for blocks", name: "imageForBlocks", widget: "image"}
-      - {label: "Image for filter", name: "imageForFilter", widget: "image"}
+      - {
+        label: "Image for filter",
+        name: "imageForFilter",
+        widget: "image",
+      }
