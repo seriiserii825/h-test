@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Schleppe
-slug: schleppeforme
+slug: schleppe
 date: 2020-03-03T13:26:10.000Z
 image: i/Schleppe.jpg
 linkText: www.schleppe.at

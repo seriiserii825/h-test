@@ -1,7 +1,7 @@
 ---
 draft: false
 title: Hirter
-slug: hirterforme
+slug: hirter
 date: 2020-03-03T13:24:50.000Z
 image: i/Hirter.jpg
 linkText: www.hirterbier.at
