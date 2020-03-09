@@ -6,5 +6,5 @@ linksToSite: 'https://www.martini.com/'
 drinkscategories:
   - grappe-distillati-e-liquori
 image: /i/martini.jpg
-draft: false
+draft: 'false'
 ---
