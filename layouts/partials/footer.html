@@ -117,13 +117,13 @@
 
 {{ "<!-- JS Plugins --> " | safeHTML }}
 {{ range .Site.Params.plugins.js}}
-<script src="{{ .link | relURL }}"></script>
+<script defer src="{{ .link | relURL }}"></script>
 {{ end }}
 
 {{ $script := resources.Get "js/main.js" }}
 
 {{ $script = $script | minify }}
-<script src="{{ $script.Permalink }}"></script>
+<script defer src="{{ $script.Permalink }}"></script>
 
 <script>
 	if (window.netlifyIdentity) {
