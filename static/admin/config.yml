@@ -3,7 +3,7 @@ backend:
   branch: master
 
 media_folder: "static/i"
-public_folder: "/static/i"
+public_folder: "/i"
 
 collections:
   - name: "website-settings"
