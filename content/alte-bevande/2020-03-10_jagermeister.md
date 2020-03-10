@@ -6,5 +6,5 @@ linksToSite: 'https://www.jagermeister.com/it-IT/'
 drinkscategories:
   - grappe-distillati-e-liquori
 image: /i/jagermeister.jpg
-draft: 'true'
+draft: 'false'
 ---
