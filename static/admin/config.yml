@@ -191,7 +191,7 @@ collections:
     label: "Menu"
     files:
     - label: "Menu"
-      name: "menu.main"
+      name: "main"
       file: "config.toml"
       widget: "object"
       fields:
