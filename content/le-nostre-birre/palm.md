@@ -8,4 +8,13 @@ subtitle: >-
 image: /i/palm.jpg
 link: 'http://www.palm.be/'
 linkText: www.palm.be
+fileslist:
+  - file: /i/scheda-estaminet-premium-pils.pdf
+    filename: Estaminet
+  - file: /i/scheda-palm-royale.pdf
+    filename: Palm Royale
+  - file: /i/scheda-palm-hop-select.pdf
+    filename: Palm Hop Select
+  - file: /i/scheda-palm-speciale-belge-anno-1747.pdf
+    filename: Palm
 ---
