@@ -186,3 +186,12 @@ collections:
         name: "imageForFilter",
         widget: "image",
       }
+      -
+  - label: "Menu"
+    name: "menu"
+    folder: "content/drinkscategories"
+    path: "content/drinkscategories/{{ slug }}"
+    file: "config.toml"
+    files:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Link", name: "link", widget: "string"}
