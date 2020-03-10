@@ -145,7 +145,7 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Link", name: "link", widget: "string", required: false}
       - {label: "Link tex", name: "linkText", widget: "string", required: false}
-      - {label: "Draft", name: "draft", widget: "select", options: ["false", "true"], default: "false"}
+      - {label: "Draft", name: "draft", widget: "select", options: ["true", "false"], default: "false"}
       - label: "Files"
         name: "fileslist"
         create: true
