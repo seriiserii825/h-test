@@ -18,3 +18,4 @@ fileslist:
   - file: /i/scheda-palm-speciale-belge-anno-1747.pdf
     filename: Palm
 ---
+L’unico birrificio che in Belgio e al mondo produce birra secondo i quattro metodi di fermentazione tradizionale e nei tre siti di birrificazione storici! La Speciale Belge è la miglior birra belga dall’inizio del XX secolo.
