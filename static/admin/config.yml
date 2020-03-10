@@ -187,14 +187,3 @@ collections:
         widget: "image",
       }
 
-  - name: "menu"
-    label: "Menu"
-    files:
-    - label: "Menu"
-      name: "main"
-      file: "config.toml"
-      widget: "object"
-      fields:
-        - {label: "Identifier", name: "identifier ", widget: "string"}
-        - {label: "Name", name: "name", widget: "string"}
-        - {label: "Url", name: "url", widget: "string"}
