@@ -195,5 +195,6 @@ collections:
       file: "config.toml"
       widget: "object"
       fields:
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "Link", name: "link", widget: "string"}
+        - {label: "Identifier", name: "identifier ", widget: "string"}
+        - {label: "Name", name: "name", widget: "string"}
+        - {label: "Url", name: "url", widget: "string"}
