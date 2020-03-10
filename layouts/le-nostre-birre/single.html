@@ -21,8 +21,8 @@
 
                     {{ range .Params.fileslist }}
 
-                    {{ $linkText := .file }}
-                    {{ $link := .filename }}
+                    {{ $linkText := .Params.fileslist.file }}
+                    {{ $link := .Params.fileslist.filename }}
 
                     <li>
                         <a target="_blank" class="link link--reverse" href="{{ $link | relURL }}">
