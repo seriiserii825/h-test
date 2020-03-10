@@ -1,9 +1,8 @@
 ---
-title: "Aque"
-date: 2020-03-02T18:55:42+02:00
-imageForBlocks: i/aque-blocks.jpg 
+title: Aque
+date: 2020-03-02T16:55:42.000Z
+imageForBlocks: aque_blocks.jpg
 imageForFilter: i/filter-acque.jpg
-slug: "aque"
+slug: aque
 draft: false
 ---
-
