@@ -3,15 +3,20 @@ draft: false
 title: Bitburger
 slug: bitburger
 date: 2020-03-03T13:24:09.000Z
+subtitle: Bitte ein Bit!
 image: i/Bitburger.jpg
+link: 'http://www.bitburger.com/'
 linkText: www.bitburger.com
+fileslist:
+  - file: /static/i/uploads/scheda-augustiner-edelstoff.pdf
+    filename: Edelstoff
+  - file: /static/i/uploads/scheda-pax-pils.pdf
+    filename: Pax pills
 files:
   - - BITBURGER Premium Pils
     - files/Scheda-Bitburger-Premium-Pils.pdf
   - - Bitburger Kellerbier
     - files/Scheda-Craftwerk-Mad-Callista.pdf
-subtitle: Bitte ein Bit!
-link: 'http://www.bitburger.com/'
 file: /static/i/uploads/scheda-pax-pils.pdf
 ---
 
