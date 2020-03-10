@@ -12,6 +12,8 @@ fileslist:
     filename: Craftwerk Hop Head IPA 7
   - file: /i/scheda-craftwerk-mad-callista.pdf
     filename: Craftwerk Mad Callista
+  - file: /i/scheda-craftwerk-holy-cowl-triple.pdf
+    filename: Craftwerk Holy Cowl triple
 files:
   - - Craftwerk Holy Cowl triple
     - files/Scheda-Craftwerk-Holy-Cowl-triple.pdf
