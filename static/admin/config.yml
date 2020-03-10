@@ -138,10 +138,10 @@ collections:
     slug: "{{ slug }}"
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string", required: false}
       - {label: "Date", name: "date", widget: "date"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+      - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Link", name: "link", widget: "string", required: false}
       - {label: "Link tex", name: "linkText", widget: "string", required: false}
       - label: "Files"
