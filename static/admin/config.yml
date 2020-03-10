@@ -134,9 +134,8 @@ collections:
   - label: "Le nostre birre"
     name: "le-nostre-birre"
     folder: "content/le-nostre-birre"
-    path: '{{filename}}'
     create: true
-    slug: "{{ slug }}"
+    slug: "{{ title }}"
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Slug", name: "slug", widget: "string", required: true}
