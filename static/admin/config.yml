@@ -116,7 +116,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}" # filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
-      - {label: "Draft", name: "draft", widget: "select", options: ["true", "false"], default: "false"}
+      - {label: "Draft", name: "draft", widget: "select", options: ["true", "false"], default: "false", hint: "Default: false"}
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Date", name: "date", widget: "date"}
       - {label: "Link to site", name: "linksToSite", widget: "string"}
