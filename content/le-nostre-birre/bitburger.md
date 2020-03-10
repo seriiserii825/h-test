@@ -6,7 +6,7 @@ subtitle: Bitte ein Bit!
 image: i/Bitburger.jpg
 link: 'http://www.bitburger.com/'
 linkText: www.bitburger.com
-draft: 'true'
+draft: 'false'
 fileslist:
   - file: /i/scheda-bitburger-drive.pdf
     filename: Drive
