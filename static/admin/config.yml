@@ -130,7 +130,7 @@ collections:
         widget: "relation"
       }
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Draft", name: "draft", widget: "string", default: false}
+      - {label: "Draft", name: "draft", widget: "select", options: ["false", "true"], default: "false"}
   - label: "Le nostre birre"
     name: "le-nostre-birre"
     folder: "content/le-nostre-birre"
