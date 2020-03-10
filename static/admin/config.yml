@@ -136,6 +136,7 @@ collections:
     folder: "content/le-nostre-birre"
     create: true
     slug: "{{ title }}"
+    preview_path: "content/le-nostre-birre/{{filename}}.{{extension}}"
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Slug", name: "slug", widget: "string", required: true}
