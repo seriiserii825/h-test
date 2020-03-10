@@ -116,6 +116,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}" # filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Draft", name: "draft", widget: "select", options: ["true", "false"], default: "false"}
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Date", name: "date", widget: "date"}
       - {label: "Link to site", name: "linksToSite", widget: "string"}
@@ -130,7 +131,6 @@ collections:
         widget: "relation"
       }
       - {label: "Image", name: "image", widget: "image"}
-      - {label: "Draft", name: "draft", widget: "select", options: ["false", "true"], default: "false"}
   - label: "Le nostre birre"
     name: "le-nostre-birre"
     folder: "content/le-nostre-birre"
@@ -138,6 +138,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}_{{slug}}" # filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Draft", name: "draft", widget: "select", options: ["true", "false"], default: "false"}
       - {label: "Slug", name: "slug", widget: "string", required: true}
       - {label: "Date", name: "date", widget: "date"}
       - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
@@ -145,7 +146,6 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Link", name: "link", widget: "string", required: false}
       - {label: "Link tex", name: "linkText", widget: "string", required: false}
-      - {label: "Draft", name: "draft", widget: "select", options: ["true", "false"], default: "false"}
       - label: "Files"
         name: "fileslist"
         create: true
