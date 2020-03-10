@@ -144,6 +144,12 @@ collections:
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Link", name: "link", widget: "string", required: false}
       - {label: "Link tex", name: "linkText", widget: "string", required: false}
+      - label: "File"
+        name: "file"
+        widget: "file"
+        media_library:
+          config:
+            multiple: true
   - label: "Chi-siamo"
     name: "chi-siamo"
     folder: "content/chi-siamo"
