@@ -144,13 +144,13 @@ collections:
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Link", name: "link", widget: "string", required: false}
       - {label: "Link tex", name: "linkText", widget: "string", required: false}
-      - label: "Files"
-        name: "fileslist"
-        create: true
+      - label: "Testimonials"
+        name: "testimonials"
+        collapsed: false
         widget: "list"
         fields:
-          - {label: "File", name: "file", widget: "file"}
-          - {label: "FileName", name: "filename", widget: "string"}
+          - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+          - {label: Author, name: author, widget: string }
   - label: "Chi-siamo"
     name: "chi-siamo"
     folder: "content/chi-siamo"
