@@ -19,10 +19,11 @@
             <div class="single-product__data">
                 <ul class="single-product__list">
 
-                    {{ range .Params.fileslist }}
 
-                    {{ $linkText := .Params.fileslist.file }}
-                    {{ $link := .Params.fileslist.filename }}
+                    {{ range $value := .Params.fileslist }}
+
+                    {{ $link := $value.file }}
+                    {{ $linkText := $value.filename }}
 
                     <li>
                         <a target="_blank" class="link link--reverse" href="{{ $link | relURL }}">
