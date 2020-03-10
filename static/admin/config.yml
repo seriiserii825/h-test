@@ -113,7 +113,7 @@ collections:
     name: "alte-bevande"
     folder: "content/alte-bevande"
     create: true
-    slug: "{{ slug }}"
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}" # filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Slug", name: "slug", widget: "string"}
