@@ -12,12 +12,6 @@ email = "diber@diberbevande.it"
 
 [params.plugins]
 
-[[params.plugins.css]]
-link = "plugins/fontawesome/css/all.min.css"
-
-[[params.plugins.js]]
-link = "plugins/slick/slick/slick.min.js"
-
 [[params.plugins.js]]
 link = "plugins/mixitup/mixitup.min.js"
 
