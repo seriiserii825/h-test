@@ -8,12 +8,12 @@ image: i/Bitburger.jpg
 link: 'http://www.bitburger.com/'
 linkText: www.bitburger.com
 fileslist:
-  - file: /static/i/uploads/scheda-bitburger-drive.pdf
-    filename: BITBURGER Drive 0.0% alc
-  - file: /static/i/uploads/scheda-bitburger-kellerbier.pdf
-    filename: Bitburger Kellerbier
-  - file: /static/i/uploads/scheda-bitburger-premium-pils.pdf
-    filename: BITBURGER Premium Pils
+  - file: /static/i/scheda-bitburger-drive.pdf
+    filename: Bit drive
+  - file: /static/i/scheda-bitburger-kellerbier.pdf
+    filename: Bit Kell
+  - file: /static/i/scheda-bitburger-premium-pils.pdf
+    filename: Bit pls
 ---
 
 Il birrificio fu fondato nel 1817 a Bitburg, da cui deriva il nome. È di proprietà al 100% della famiglia Simon da 7 generazioni ed è il marchio n°1 per la birra in fusto in Germania. Il celebre slogan “Bitte ein Bit” è conosciuto in tutto il mondo al pari della birra di punta del marchio cioè la Bitburger Premium Pils.
