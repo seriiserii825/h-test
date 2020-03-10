@@ -186,7 +186,7 @@ collections:
         name: "imageForFilter",
         widget: "image",
       }
-      -
+
   - label: "Menu"
     name: "menu.main"
     file: "config.toml"
