@@ -130,7 +130,7 @@ collections:
         multiple: true,
         widget: "relation"
       }
-      - {label: "Image", name: "image", widget: "image", hint: "Size of the image: 1920x360"}
+      - {label: "Image", name: "image", widget: "image", hint: "Size of the image: 1920x360 "}
   - label: "Le nostre birre"
     name: "le-nostre-birre"
     folder: "content/le-nostre-birre"
