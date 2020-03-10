@@ -353,6 +353,11 @@ p {
 .main-slider__item {
   position: relative;
   height: 900px;
+  background-image: url("/i/slider-500.jpg");
+
+  @media screen and (min-width: 576px) {
+    background-image: url("/i/slider.jpg");
+  }
 }
 
 @media screen and (max-width: 1600px) {
