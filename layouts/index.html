@@ -34,7 +34,7 @@
     <div class="categories-block">
         {{ $drinkscategories := .Site.Taxonomies.drinkscategories }}
         {{ range $drinkscategories }}
-        <div class="categories-block__item" style="background-image: url('{{ .Page.Params.imageForBlocks | relURL }}')">
+        <div class="categories-block__item" style="background-image: url('{{ .Page.Params.imageForBlocks }}')">
             <div class="categories-block__footer">
                 <h4 class="title">{{ .Page.Title }}</h4>
                 <a class="link" href="/alte-bevande/">
