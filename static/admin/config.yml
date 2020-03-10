@@ -188,10 +188,9 @@ collections:
       }
       -
   - label: "Menu"
-    name: "menu"
-    folder: "content/drinkscategories"
-    path: "content/drinkscategories/{{ slug }}"
+    name: "menu.main"
     file: "config.toml"
-    files:
+    widget: "list"
+    fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Link", name: "link", widget: "string"}
