@@ -1,5 +1,4 @@
 ---
-draft: false
 title: Bitburger
 slug: bitburger
 date: 2020-03-03T13:24:09.000Z
@@ -7,6 +6,7 @@ subtitle: Bitte ein Bit!
 image: i/Bitburger.jpg
 link: 'http://www.bitburger.com/'
 linkText: www.bitburger.com
+draft: 'true'
 fileslist:
   - file: /i/scheda-bitburger-drive.pdf
     filename: Drive
