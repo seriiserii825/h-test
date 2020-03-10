@@ -135,7 +135,7 @@ collections:
     name: "le-nostre-birre"
     folder: "content/le-nostre-birre"
     create: true
-    slug: "{{ slug }}"
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Slug", name: "slug", widget: "string", required: true}
