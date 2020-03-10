@@ -175,6 +175,8 @@ collections:
     create: true
     folder: "content/drinkscategories"
     path: "content/drinkscategories/{{ slug }}"
+    media_folder: 'static/i'
+    public_folder: '/i'
     fields:
       - {label: "Title", name: "title", widget: "string", required: true}
       - {label: "Image for blocks", name: "imageForBlocks", widget: "image"}
